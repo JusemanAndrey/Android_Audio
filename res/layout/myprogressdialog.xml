@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:id="@+id/layout_root"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:background="#000000"
+              android:padding="10dp"
+              >
+
+    <ProgressBar
+        android:id="@+id/progressBar1"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <ProgressBar
+		android:id="@+id/circularProgressbar"
+		android:layout_width="50dp"
+		android:layout_height="50dp"
+		style="?android:attr/progressBarStyleHorizontal"
+		android:indeterminate="false"
+		       android:progress="75"
+		android:max="100"
+		android:secondaryProgress="100"
+		android:layout_gravity="center_horizontal"
+		android:visibility="gone"
+		android:progressDrawable="@drawable/circular_progress_bar" />
+    <ProgressBar   
+		android:id="@+id/progress_bar"  
+		android:layout_width="fill_parent"  
+		android:layout_height="wrap_content"  
+		android:progress="0"  
+		android:layout_marginTop="5dp"
+		android:layout_marginBottom="10dp"
+		style="?android:attr/progressBarStyleHorizontal"  
+		android:visibility="gone"
+		android:maxHeight="10dip"  
+		android:minHeight="10dip" />
+    <TextView 
+    	android:id="@+id/cur_pg_tv"
+      	android:layout_width="wrap_content"
+      	android:layout_height="wrap_content"
+      	android:textColor="#fff"
+      	android:text="hello"
+      	android:layout_gravity="center_horizontal"
+      	android:layout_marginTop="5dp"
+      	android:textSize="20sp"
+      	android:textStyle="bold"    />    
+    <TextView 
+    	android:id="@+id/cur_pg_tv1"
+      	android:layout_width="wrap_content"
+      	android:layout_height="wrap_content"
+      	android:textColor="#fff"
+      	android:text="Connecting..."
+      	android:layout_gravity="center_horizontal"
+      	android:layout_marginTop="10dp"
+      	android:textSize="15sp" />    
+    <TextView 
+    	android:id="@+id/tv1"
+      	android:layout_width="wrap_content"
+      	android:layout_height="wrap_content"
+      	android:textColor="#FFF"
+      	android:text="hello"
+      	android:layout_gravity="center_horizontal"
+      	android:layout_marginTop="10dp"
+      	android:textSize="15sp"
+      	android:textStyle="bold"/>
+       
+       
+      
+	<Button 
+	    android:id="@+id/ok_but"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_gravity="center_horizontal"
+	    android:layout_marginTop="5dp"
+	    android:text="Stop Downloadدابه زاندنه که بوه ستێنه"/>
+	
+</LinearLayout>

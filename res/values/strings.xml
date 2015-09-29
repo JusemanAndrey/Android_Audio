@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Audio Application</string>
+    <string name="app_name">قورئانی پیرۆز</string>
+    <string name="text_stop_download">Stop Downloading</string>
+    <string name="text_cancel_download">Cancel Downloading</string>
+    
+    <array name="status_icon">
+        <item>@drawable/number_but2</item>
+    </array>
+    <!-- <array name="status_icon2">
+        <item>@drawable/number_but1</item>
+    </array> -->
+    
+</resources>

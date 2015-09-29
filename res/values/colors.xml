@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>    
+    <color name="top_below_bar_color">#aeb3a7</color>
+    <color name="item_select_color">#798a64</color>
+    <color name="bottom_bar_color">#3b4b24</color>
+    <color name="font_yellow_color">#b6a453</color>
+    <color name="font_white_color">#ffffff</color>
+    <color name="font_black_color">#000000</color>
+    
+    <color name="greenStart">#ff33dd44</color>
+	<color name="greenMid">#ff0A8815</color>
+	<color name="greenEnd">#ff1da130</color>
+	
+	<color name="grey_green">#bed0d1</color>
+	
+	<color name="pressed_color">#8c9b72</color>
+</resources>
