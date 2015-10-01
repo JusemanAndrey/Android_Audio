@@ -1,3 +1,4 @@
 # Android_Audio
-This app is for audio player sample I made.
-User can do audio editing and playing. 
+This app is an audio player.
+User can download audio file from server and play by selecting one.
+Both versions, iOS and Android exist and I made later.  
